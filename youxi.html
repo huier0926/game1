@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/index.css">
+	<script src="js/animate.js"></script>
+	<script src="js/functions.js"></script>
+	<script src="js/index1.js"></script>
+	<script>
+	window.onload=function(){
+		var aaa=new game();
+		var start1=$(".start1")[0];
+		var yes1=$(".yes1")[0];
+		start1.onclick=function(){
+			aaa.play();
+			start1.style.display="none"
+			
+		}
+		// yes1.onclick=function(){
+		
+		// }
+		
+	}
+
+	</script>
+</head>
+<body>
+
+	<div class="start1">Start</div>
+	<!-- <div class="bj"><img src="img/21.jpg" alt=""></div> -->
+	<div class="jieshu"></div>
+
+		<div class="scorebox">	
+			<p id="score">0</p>
+		</div>
+		<div class="lifebox">
+			<p id="life">10</p>		
+		</div>
+		<div class="stepbox">
+			<div class="guanqia">
+				<p id="steptitle">第</p>
+				<p id="step">1</p>	
+				<p id="steptitle">关</p>
+			</div>	
+		</div>
+	<div class="zt"></div>
+	<div class="wait"></div>
+	<div class="ks"></div>
+	<div class="cw"></div>
+	<div class="jstc">
+		<div class="yes"></div>
+		<div class="no"></div>
+	</div>
+	<div class="xyg">
+		<div class="xyg1"></div>
+	</div>
+	<div class="tuichu"></div>
+	<div class="tuichu1">
+		<div class="yes1"></div>
+		<div class="no1"></div>
+	</div>
+</body>
+</html>

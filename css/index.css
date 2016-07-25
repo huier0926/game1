@@ -1,0 +1,217 @@
+html,body{
+			width:100%;
+			height:100%;
+			margin: 0;
+			padding: 0;
+			color: white;
+			font-size: 16px;
+			overflow: hidden;
+			background: url(../img/21.jpg) no-repeat;
+			background-size: 100%;
+		}
+
+        p{
+			margin: 0;
+			padding: 0;		
+		}
+		/*body img{
+			width:100%;
+			height:22px;
+		}*/
+		span img{
+			width:100px;
+			height:200px;
+		}
+		.lifebox{
+			width:200px;
+			height:100px;
+			background:url(../img/life_07.png) no-repeat;
+			position:absolute;
+			left:10px;top:0px;
+		}
+		#life{
+			margin-left: 50%;margin-top: 15px;
+			font-size: 30px;
+		}
+
+		.scorebox{
+			width:200px;
+			height:100px;
+			background:url(../img/fenshu_07.png) no-repeat;
+			position:absolute;
+			right:135px;top:-5px;
+		}
+		#score{
+			margin-top:23px;margin-left: 60px;
+			font-size: 30px;
+		}
+		.stepbox{
+			width:200px;
+			height:100px;
+			background: url(../img/guanqia_03.png) no-repeat;
+			position:absolute;
+			left:50%;bottom:-40px;margin-left: -60px;
+		}
+		.guanqia{
+			margin-left: 55px;margin-top: 10px;
+		}
+		#step{
+			margin-left: 5px;margin-right: 5px;
+		}
+		div p{
+			color: #fff;
+			font-size: 20px;
+			line-height: 30px;
+			font-weight: bold;
+			opacity:0.9;
+			text-align: center;
+			float: left;
+
+		}
+
+		.start1{
+			width:263px;
+			height:100px;
+			background: url(../img/start2.png) no-repeat;
+			margin-left: 583px;
+			margin-top: 250px;
+			font-size: 50px;
+			text-align: center;
+			line-height: 100px;
+			cursor:pointer;
+		}
+		.jieshu{
+			background: #000;
+			width:365px;
+			height:142px;
+			cursor:pointer;
+			position:absolute;
+			left:50%;top:150px;
+			margin-left:-150px;
+			margin-top: -70px;
+			background: url(../img/over.png);
+			z-index: 9999;
+			display: none;
+		}
+		.zt{
+			width:69px;
+			height:69px;
+			background:url(../img/zt.png);
+			position:absolute;
+			left:130px;top:300px;
+			border-radius: 50%;
+			cursor:pointer;
+
+		}
+		.ks{
+			width:69px;
+			height:69px;
+			background:url(../img/ks_03.png);
+			position:absolute;
+			left:130px;top:300px;
+			border-radius: 50%;
+			cursor:pointer;
+			display:none;
+
+		}
+		.cw{
+			width:69px;
+			height:69px;
+			background:url(../img/cw.png);
+			position:absolute;
+			right:310px;top:270px;
+			border-radius: 50%;
+			cursor:pointer;
+
+		}
+		.jstc{
+			width:359px;
+			height:180px;
+			background: url(../img/cwwh.png);
+			position:absolute;
+			left:50%;top:200px;margin-left: -150px;
+			display: none;
+		}
+		.yes{
+			width:70px;
+			height:70px;
+			background: url(../img/yes.png);
+			position:absolute;
+			left: 50%;top:50%;
+			margin-left: 40px;margin-top: 50px;
+			cursor:pointer;
+
+		}
+		.no{
+			width:70px;
+			height:70px;
+			background: url(../img/gb.png);
+			position:absolute;
+			left: 50%;top:50%;
+			margin-left: -90px;margin-top: 50px;
+			cursor:pointer;
+		}
+		.wait{
+			width:359px;
+			height:180px;
+			background: url(../img/zanting.png);
+			position:absolute;
+			left:50%;top:200px;margin-left: -150px;
+			z-index: 999;
+			display: none;
+		}
+		.xyg{
+			width:359px;
+			height:180px;
+			background: url(../img/xyg.png);
+			position:absolute;
+			left:50%;top:200px;margin-left: -150px;
+			z-index: 9999;
+			display: none;
+		}
+		.xyg1{
+			width:70px;
+			height:70px;
+			background: url(../img/xiayiguan.png);
+			position:absolute;
+			left: 50%;top:50%;
+			margin-left:100px;margin-top: 50px;
+			cursor:pointer;
+		}
+		.tuichu{
+			width:69px;
+			height:69px;
+			background:url(../img/tuichu.png);
+			position:absolute;
+			left:1px;top:275px;
+			border-radius: 50%;
+			cursor:pointer;
+			display:block;
+		}
+		.tuichu1{
+			width:359px;
+			height:180px;
+			background: url(../img/tuichu1.png);
+			position:absolute;
+			left:50%;top:200px;margin-left: -150px;
+			display: none;
+			z-index: 9999;
+		}
+		.yes1{
+			width:70px;
+			height:70px;
+			background: url(../img/yes.png);
+			position:absolute;
+			left: 50%;top:50%;
+			margin-left: 40px;margin-top: 50px;
+			cursor:pointer;
+		}
+		.no1{
+			width:70px;
+			height:70px;
+			background: url(../img/gb.png);
+			position:absolute;
+			left: 50%;top:50%;
+			margin-left: -90px;margin-top: 50px;
+			cursor:pointer;
+		}
